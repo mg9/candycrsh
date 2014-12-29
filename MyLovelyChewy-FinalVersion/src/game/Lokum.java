@@ -213,7 +213,8 @@ public class Lokum {
 	}
 
 	public String toString() {
-		return "Bu lokum rengi : " + color + "Bu Lokum Timer mi" + Boolean.toString(isTimerLokum);
+		
+		return "Color : " + color + " is Timer? " + Boolean.toString(isTimerLokum) + " Type : " +type;
 	}
 
 }
